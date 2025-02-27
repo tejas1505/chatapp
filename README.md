@@ -28,6 +28,17 @@ Make sure you have the following installed on your system:
    npm run dev
    ```
 
+#### Database Setup
+
+1. Open MySQL and create the database:
+```sh
+CREATE DATABASE chatapp;
+```
+2. Import the SQL dump file:
+```sh
+mysql -u your_username -p chatapp < chatapp.sql
+```
+Start the backend server:
 #### Backend Setup
 1. Navigate to the backend directory:
    ```sh
