@@ -27,7 +27,19 @@ Make sure you have the following installed on your system:
    ```sh
    npm run dev
    ```
+#### Environment Variables
 
+1. For Frontend
+   ```sh
+   REACT_APP_FRONTEND_URL=http://localhost:5173
+   VITE_API_URL=http://localhost:8000
+   ```
+2. For Backend
+   ```sh
+   BACKEND_URL=http://localhost:8000
+   FRONTEND_URL=http://localhost:5173
+   SECRET_KEY=pumkin
+   ```
 #### Database Setup
 
 1. Open MySQL and create the database:
